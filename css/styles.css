@@ -87,6 +87,15 @@ img {
 
 /* Begin Portfolio Gallery Styles */
 
+.portfolio-container {
+  margin: 1rem auto 0 auto;
+}
+
+.portfolio-container h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
 .portfolio-gallery {
   margin: 1rem auto 0 auto;
   display: grid;
@@ -114,6 +123,7 @@ img {
 .portfolio-gallery h1 {
   font-size: 2rem;
   line-height: 2rem;
+  color: red;
 }
 /*Begin Media Queries for tablets and desktop*/
 
